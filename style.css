@@ -1,0 +1,113 @@
+* {
+    font-family: 'Sue Ellen Francisco', cursive;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+body{
+    background-color: rgb(71, 71, 71);
+}
+#todo-app{
+    background-color: rgb(71, 71, 71);
+    width: 70%;
+    height: auto;
+    margin: 150px auto;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+#add{
+    width: 100%;
+    height: 55px;
+    border-radius: 8px;
+}
+#add svg{
+    width: 50%;
+    height: 50%;
+}
+#add-btn{
+    width: 60px;
+    height: 100%;
+    float: right;
+    color: rgb(71, 71, 71);
+    border: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+#add-btn svg{
+    font-size: 15px;
+}
+#todo,#completed{
+    height: auto;
+    width: 47%;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    color: #474747;
+    font-size: 25px;   
+}
+#todo-input{
+    width: 75%;
+    height: 100%;
+    outline: none;
+    border: none;
+    font-size: 25px;
+    float: left;
+    margin-left: 10px;
+}
+#todo{
+    float: left;
+}
+#completed{
+    float: right;
+}
+@media screen and (max-width: 880px) {
+    #todo,#completed {
+      clear: both;
+      width: 100%;
+    }
+}
+.titles{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.task{
+    width: 95%;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display:inline-block;
+}
+.task-name{
+    display: inline;
+    float: left;
+    padding-left: 20px;
+    color: #706f6f;
+    font-weight: normal;
+}
+#check{
+    float: left;
+    margin-left: 17px;
+    margin-top: 10px;
+    width: 15px;
+    height: 15px;
+}
+#btn{
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    float: right;
+    border: none;
+    background-color:#f8f9fa
+}
+.icon{
+    margin: 0;
+    padding: 0;
+    
+}
+.icon-red:hover{
+    color: #a73535;
+}
+.icon-blue:hover{
+    color: #3d58c1;
+}
